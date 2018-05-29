@@ -24,7 +24,7 @@ Vulnerability #2: Session Hijacking: Open up a browser to https://35.226.34.105/
 
 ## Green
 
-Vulnerability #1: User Enumeration: 
+Vulnerability #1: User Enumeration: Open up a browser to https://35.226.34.105/green/public/territories.php. There is a username enumeration vulnerability. Keep in mind that when login as admin, you realize there are only three users. Go to the Login page and begin typing different usernames. Type in "jmonroe99"and we can that the user exists. A bold error is shown. An invalid user shows an unbolded error. This vulnerability allows you to determine valid user accounts. 
 
 Vulnerability #2: Cross Site Scripting: Open up a brower to https://35.226.34.105/green/public/territories.php. Go to the Contact Us form page where the exploit will be conducted. Fill out the form by inputting information on the fill text boxs. In the feedback text box, place <script>alert('putyournamehere found the XSS!');</script> and submit. Login as admin to view the feedback and go to the Feedback section and the XSS is executed. 
 
