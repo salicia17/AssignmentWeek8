@@ -26,14 +26,14 @@ Vulnerability #2: Session Hijacking: Open up a browser to https://35.226.34.105/
 
 Vulnerability #1: User Enumeration: 
 
-Vulnerability #2: Cross Site Scripting: Open up a brower to https://35.226.34.105/green/public/territories.php. Go to the Contact Us form page where the exploit will be conducted. 
+Vulnerability #2: Cross Site Scripting: Open up a brower to https://35.226.34.105/green/public/territories.php. Go to the Contact Us form page where the exploit will be conducted. Fill out the form by inputting information on the fill text boxs. In the feedback text box, place <script>alert('putyournamehere found the XSS!');</script> and submit. Login as admin to view the feedback and go to the Feedback section and the XSS is executed. 
 
 
 ## Red
 
-Vulnerability #1: 
+Vulnerability #1: IDOR
 
-Vulnerability #2: 
+Vulnerability #2: CSRF
 
 
 ## Notes
