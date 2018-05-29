@@ -1,4 +1,4 @@
-# AssignmentWeek8
+# AssignmentWeek8viaCodepath/Facebook
 # Project 8 - Pentesting Live Targets
 
 Time spent: 13 to 15 hours spent in total
@@ -31,11 +31,9 @@ Vulnerability #2: Cross Site Scripting: Open up a brower to https://35.226.34.10
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: 
 
-Vulnerability #2: __________________
+Vulnerability #2: 
 
 
 ## Notes
-
-Describe any challenges encountered while doing the work
