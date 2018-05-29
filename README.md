@@ -31,7 +31,7 @@ Vulnerability #2: Cross Site Scripting: Open up a brower to https://35.226.34.10
 
 ## Red
 
-Vulnerability #1: IDOR
+Vulnerability #1: IDOR: Open up a browser to https://35.226.34.105/red/public/territories.php. You can go to the Salesperson tab on the website. You will be able to change the parameter ID in the URL. We can find different salespeople.ID's with 10 and 11 shouldn't be accessible by everyone. The other two websites won't allow you to see this information.
 
 Vulnerability #2: CSRF
 
