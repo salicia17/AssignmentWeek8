@@ -1,1 +1,41 @@
 # AssignmentWeek8
+# Project 8 - Pentesting Live Targets
+
+Time spent: 13 to 15 hours spent in total
+
+> Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
+
+The six possible exploits are:
+* Username Enumeration
+* Insecure Direct Object Reference (IDOR)
+* SQL Injection (SQLi)
+* Cross-Site Scripting (XSS)
+* Cross-Site Request Forgery (CSRF)
+* Session Hijacking/Fixation
+
+Each version of the site has been given two of the six vulnerabilities. (In other words, all six of the exploits should be assignable to one of the sites.)
+
+## Blue
+
+Vulnerability #1:SQL Injection: Open up a browser to https://35.226.34.105/blue/public/territories.php. Select the salesperson page to conduct the exploit. The exploit will be conducted via the URL. Using the given statement, ' OR SLEEP(5)=0--'. The SQL statement will produce a blind SQL injection. Put given statement after the https://35.226.34.105/blue/public/salesperson.php?id=1' OR SLEEP(5)=0--'. This will load the page for a few seconds, but then it returns back to the page.
+
+Vulnerability #2: 
+
+
+## Green
+
+Vulnerability #1: User Enumeration: 
+
+Vulnerability #2: Cross Site Scripting: 
+
+
+## Red
+
+Vulnerability #1: __________________
+
+Vulnerability #2: __________________
+
+
+## Notes
+
+Describe any challenges encountered while doing the work
