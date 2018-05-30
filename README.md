@@ -33,7 +33,7 @@ Vulnerability #2: Cross Site Scripting: Open up a brower to https://35.226.34.10
 
 Vulnerability #1: IDOR: Open up a browser to https://35.226.34.105/red/public/territories.php. You can go to the Salesperson tab on the website. You will be able to change the parameter ID in the URL. We can find different salespeople.ID's with 10 and 11 shouldn't be accessible by everyone. The other two websites won't allow you to see this information.
 
-Vulnerability #2: CSRF
+Vulnerability #2: CSRF: Open up a browser to https://35.226.34.105/red/public/territories.php. You will go to the User list tab so see all users. Click on the edit tab for the user to edit user information. Open the Inspect element on Google Chrome developer tools. Go to form and change the CSRF token. Change user information such as user name. Submit new changes. Changes were made successfully without getting an invalid equest such as the other BLUE and Green websites. 
 
 
 ## Notes
