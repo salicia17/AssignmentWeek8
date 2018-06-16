@@ -35,5 +35,17 @@ Vulnerability #1: IDOR: Open up a browser to https://35.226.34.105/red/public/te
 
 Vulnerability #2: CSRF: Open up a browser to https://35.226.34.105/red/public/territories.php. You will go to the User list tab so see all users. Click on the edit tab for the user to edit user information. Open the Inspect element on Google Chrome developer tools. Go to form and change the CSRF token. Change user information such as user name. Submit new changes. Changes were made successfully without getting an invalid equest such as the other BLUE and Green websites. 
 
+Week 8 Lab Exercises: WordPress vs. Kali, Round 2
+
+The following criteria has been met:
+
+Milestone 0: Preparing the Playing Field
+
+Milestone 1: Opening an Attack Surface
+
+Milestone 2: Recon
+
+Milestone 3: Hello, Metasploit: Began having issues at this step. Couldn't get mfconsole running. 
+
 
 ## Notes
